@@ -1,0 +1,52 @@
+AppDox/
+│
+├── backend/
+│   ├── server.js
+│   ├── routes/
+│   │   ├── auth.js
+│   │   ├── users.js
+│   │   ├── projects.js
+│   │
+│   ├── controllers/
+│   │   ├── authController.js
+│   │   ├── projectController.js
+│   │
+│   ├── models/
+│   │   ├── User.js
+│   │   ├── Project.js
+│   │   ├── Credits.js
+│   │
+│   ├── utils/
+│   │   ├── usiGenerator.js
+│   │   ├── creditSystem.js
+│   │
+│   └── config/
+│       └── db.js
+│
+├── frontend/
+│   ├── index.html
+│   ├── dashboard.html
+│   ├── login.html
+│   ├── css/
+│   │   └── styles.css
+│   ├── js/
+│   │   └── app.js
+│
+├── ai_agents/
+│   ├── agent_manager.js
+│   ├── code_agent.js
+│   ├── ui_agent.js
+│   ├── testing_agent.js
+│
+├── conferencing/
+│   ├── videoServer.js
+│   └── socket.js
+│
+├── internal_linking/
+│   └── linker.js
+│
+├── gemini_cli/
+│   └── geminiConnector.js
+│
+├── package.json
+└── README.md
